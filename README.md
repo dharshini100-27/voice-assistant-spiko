@@ -10,7 +10,7 @@ This project is a simple voice assistant built using C and Python.
 
 ## Files
 
-- `vc.c` — Core logic in C
+- `v.c` — Core logic in C
 - `vpy.py` — Python helper script
 - `s.mp3` — Audio file used
 - `tasks.txt` — Task list or configuration
@@ -20,5 +20,5 @@ This project is a simple voice assistant built using C and Python.
 
 1. Compile the C code:
    ```bash
-   gcc vc.c -o vc
-   ./vc
+   gcc v.c -o v
+   ./v
