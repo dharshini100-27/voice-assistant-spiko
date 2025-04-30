@@ -1,20 +1,24 @@
 # Voice Assistant Project
 
-This project is a simple voice assistant built with C and Python.
+This project is a simple voice assistant built using C and Python.
 
 ## Features
-- Text-to-speech
-- Voice recognition
-- Simple task execution
+
+- **Text-to-speech**
+- **Voice recognition**
+- **Simple task execution**
 
 ## Files
-- `src/v.c` – Core logic in C
-- `src/v.py` – Python helper script
-- `assets/s.mp3` – Audio file used
-- `tasks.txt` – Task list or configuration
+
+- `vc.c` — Core logic in C
+- `vpy.py` — Python helper script
+- `s.mp3` — Audio file used
+- `tasks.txt` — Task list or configuration
+- `README.md` — Project documentation
 
 ## How to Run
-1. Compile the C file:
+
+1. Compile the C code:
    ```bash
-   gcc src/v.c -o v_exec
-   ./v_exec
+   gcc vc.c -o vc
+   ./vc
